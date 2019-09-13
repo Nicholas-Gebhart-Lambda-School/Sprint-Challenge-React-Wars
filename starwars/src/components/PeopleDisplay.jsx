@@ -20,7 +20,7 @@ const PeopleDisplay = props => {
           <CardTitle>{props.name}</CardTitle>
           <CardText>
             {props.name} was born in {props.year} and is {props.height} units
-            tall and has a mass of {props.mass}
+            tall and has a mass of {props.mass}.
           </CardText>
           <CardText>
             <small className="text-muted">{props.name}</small>
